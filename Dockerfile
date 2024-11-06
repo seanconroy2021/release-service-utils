@@ -1,4 +1,4 @@
-FROM quay.io/konflux-ci/oras:latest@sha256:1619b84cea3777387f643d7a1ecde98dd10904439f31607e66530cd2299c7b91 as oras
+FROM quay.io/konflux-ci/oras:latest@sha256:ce3bbcf665d6b9f79ee7efcfd18ba0342da20b6b0125b0ecce434525e1c9a167 as oras
 FROM registry.access.redhat.com/ubi9-minimal:9.4-949.1717074713
 
 ARG COSIGN_VERSION=2.1.1
